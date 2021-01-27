@@ -9,8 +9,8 @@ set /p tok=What is your bot token?
 set /p pref=What will the bot's prefix be? 
 (
     echo {
-    echo "token": "%tok%",
-    echo "prefix": "%pref%"
+    echo    "token": "%tok%",
+    echo    "prefix": "%pref%"
     echo }
 ) >config.json
 (
