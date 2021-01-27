@@ -16,7 +16,7 @@ set /p pref=What will the bot's prefix be?
 (
     echo @echo off
     echo node index.json
-    pause
+    echo pause
 ) >run.bat
 set /p yn=Would you like to run the bot now?
 if /I "%yn%" EQU "N" exit
